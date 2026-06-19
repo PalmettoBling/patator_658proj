@@ -44,3 +44,14 @@ Issues = 'https://github.com/lanjelot/patator/issues'
 
 [project.scripts]
 patator = 'patator.patator:cli'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=src/patator --cov-report=xml:coverage.xml --cov-report=html:htmlcov --cov-report=term-missing"
+
+[tool.coverage.run]
+source = ["src/patator"]
+omit = ["*/__pycache__/*"]
+
+[tool.coverage.report]
+show_missing = true

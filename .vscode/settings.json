@@ -1,0 +1,17 @@
+{
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests",
+        "--cov=src/patator",
+        "--cov-report=xml:coverage.xml",
+        "--cov-report=html:htmlcov",
+        "--cov-report=term-missing"
+    ],
+    "python.testing.cwd": "${workspaceFolder}",
+    "coverage-gutters.coverageFileNames": [
+        "coverage.xml"
+    ],
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showRulerCoverage": true
+}
