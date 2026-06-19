@@ -1,0 +1,9 @@
+[run]
+source =
+    patator
+
+[report]
+omit =
+    tests/*
+    */site-packages/*
+skip_covered = False

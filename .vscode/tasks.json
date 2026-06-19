@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Test: Validate Coverage",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}\\scripts\\validate_coverage.py"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
