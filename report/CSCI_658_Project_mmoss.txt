@@ -1,0 +1,59 @@
+CSCI 658 
+Software Testing and Maintenance
+Course Project
+
+Points: 40     
+Due: End of Week 8 
+Submission: DOCX or PDF via Canvas
+
+Overview
+The course project is an individual effort completed over the final weeks of the course. It gives you the opportunity to apply the testing concepts and tools from the course to a sustained, realistic problem. Four options are available; select the one that best fits your background, interests, and goals.
+
+All options require a written project document submitted to Canvas. 
+
+Mutation Testing and AI Critique at Scale
+
+Background
+Working in a substantial codebase for a deep written analysis suitable for a graduate-level technical report. Think of this as a small empirical study: you are measuring AI test quality using mutation testing as the instrument.
+
+Tasks:
+Part a Select a codebase: I have chosen Patator for this project.
+
+Part b Generate AI test suites: Prompt at least two different AI tools (e.g., ChatGPT and Claude, or GitHub Copilot and one other) to generate test suites for the codebase. Use the same prompt for each to enable fair comparison. Document your prompts.
+
+Part c Measure and compare: Run mutation testing (PITest or mutmut) against each AI-generated suite. Record mutation score, line coverage, and branch coverage for each. Also write a baseline test suite of your own and measure it the same way.
+
+Part d surviving mutant analysis: Identify at least 10 surviving mutants from one of the AI suites. For each, explain why it survived and write a targeted test to kill it.
+
+Part e Written report: Write a technical report (see format below) synthesizing your findings.
+Report Format
+Your report should be 1500 - 2500 words and include:
+* Introduction: the codebase chosen, the AI tools used, and your research question
+* Methodology: how you generated tests, what mutation tool you used, how you measured
+* Results: mutation scores, coverage numbers, comparison table across suites
+* Analysis: surviving mutant case studies, patterns in AI weaknesses
+* Discussion: what mutation testing reveals about AI test quality that coverage does not
+* Conclusion: when you would and would not trust AI-generated tests
+Deliverables
+* Written report (DOCX or PDF)
+* Test files for all three suites (AI suites and your own), linked or attached
+* Mutation testing reports / screenshots for each suite
+* Prompts used for each AI tool
+Grading Criteria
+* Rigor of measurement: mutation testing applied correctly and consistently
+* Depth of surviving mutant analysis: explains the why, not just the what
+* Quality of written report: clear, analytical, graduate-level writing
+* Quality of your own test suite as a baseline
+
+Grading Criteria
+* Quality and relevance of sources: recent, peer-reviewed, from reputable venues
+* Synthesis: papers are compared and connected, not just summarized in sequence
+* Original analysis: the discussion and conclusion reflect your own thinking
+* Writing quality: clear, precise, graduate-level prose
+* Format and completeness: all required sections present, properly cited
+
+
+General Submission Guidelines
+All project submissions are due at the end of Week 8. Submit a single DOCX or PDF document to Canvas. Code files may be linked via GitHub or attached as a ZIP. Late submissions are not accepted without a documented medical excuse.
+
+Your submission document should be professionally formatted: clear section headings, readable fonts, properly cropped screenshots, and code in a monospace font (10pt Consolas). Graduate-level writing is expected throughout.
