@@ -17,7 +17,7 @@ RUN apt-get update \
 
 ## cx_oracle
 RUN apt-get update \
- && apt-get install -y --no-install-recommends libaio1 wget unzip git \
+ && apt-get install -y --no-install-recommends libaio1t64 wget unzip git \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/oracle
