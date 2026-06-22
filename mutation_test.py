@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Simple mutation testing runner for tests/test_patator.py against src/patator/patator.py.
+"""Mutation testing runner for tests/test_patator.py against src/patator/patator.py.
 
 This intentionally uses a small set of text mutations and reports whether each
 mutation is killed (tests fail) or survives (tests still pass).
@@ -181,7 +181,7 @@ def build_report(results: list[MutationResult], limit: int, baseline_ok: bool, t
     score = (killed / total * 100.0) if total else 0.0
 
     lines: list[str] = []
-    lines.append("# Simple Mutation Testing Report")
+    lines.append("# Mutation Testing Report")
     lines.append("")
     lines.append(f"Generated: {dt.datetime.now().isoformat(timespec='seconds')}")
     lines.append(f"Baseline tests pass: {'yes' if baseline_ok else 'no'}")
@@ -221,14 +221,14 @@ def build_report(results: list[MutationResult], limit: int, baseline_ok: bool, t
     lines.append("")
     lines.append("## Notes")
     lines.append("")
-    lines.append("- This is a simple text-mutation approach; it does not parse Python AST.")
+    lines.append("- This is a mutation testing approach; it does not parse Python AST.")
     lines.append("- Surviving mutants indicate potential test blind spots or equivalent mutants.")
 
     return "\n".join(lines) + "\n"
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run simple mutation testing.")
+    parser = argparse.ArgumentParser(description="Run mutation testing.")
     parser.add_argument(
         "--limit",
         type=int,
@@ -280,7 +280,7 @@ def main() -> int:
     mutations = gather_mutations(source_lines, max(args.limit, 1))
 
     if not mutations:
-        fail("No mutation points found with the current simple rules.")
+        fail("No mutation points found with the current rules.")
 
     results = run_mutations(repo_root, args.python, mutations, timeout_seconds=max(args.timeout, 1))
     report_text = build_report(results, args.limit, baseline_ok=True, timeout_seconds=max(args.timeout, 1))

@@ -12,13 +12,13 @@ This project now has two new branches configured for mutation testing:
 - **Base Branch**: Agent-A-Copilot
 - **Test Suite**: `tests/test_patator.py`
 - **Target Code**: `src/patator/patator.py`
-- **Mutation Configuration**: `mutation_test_simple.py`
+- **Mutation Configuration**: `mutation_test.py`
 
 ### Agent-B-Mutate-Tests
 - **Base Branch**: Agent-B-Claude
 - **Test Suite**: `tests/test_patator.py`
 - **Target Code**: `src/patator/patator.py`
-- **Mutation Configuration**: `mutation_test_simple.py`
+- **Mutation Configuration**: `mutation_test.py`
 
 ## Mutation Configuration
 
@@ -44,7 +44,7 @@ To run mutation tests on either branch:
 
 ```bash
 cd d:\patator_658proj
-python mutation_test_simple.py
+python mutation_test.py
 ```
 
 This will:
@@ -59,14 +59,14 @@ This will:
 
 ## File Hashes
 
-Both branches have identical `mutation_test_simple.py`:
+Both branches have identical `mutation_test.py`:
 - **Hash**: `E2D7CCE617F4CA4343CC0D2D9BFBDA5039E346BE0D42DF6BA58FB07F8B3CE875`
 
 This ensures consistent mutation testing across both branches.
 
 ## Key Files
 
-- `mutation_test_simple.py` - The mutation testing harness script
+- `mutation_test.py` - The mutation testing harness script
 - `tests/test_patator.py` - The test suite for both branches (from their respective base branches)
 - `src/patator/patator.py` - The target code being mutated
 
