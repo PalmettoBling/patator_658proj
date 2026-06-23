@@ -1,0 +1,54 @@
+Mutation Testing Report
+Generated: 2026-06-22T07:03:13
+Target code: src\patator\patator.py
+Target tests: tests/test_patator.py
+
+Baseline return code: 0
+Baseline summary: .........................................                                [100%] | 41 passed in 0.32s
+
+M01 SURVIVED Change bytes encoding from ISO-8859-1 to UTF-8
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.32s
+M02 SURVIVED Change bytes decoding from ISO-8859-1 to UTF-8
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.32s
+M03 KILLED   Disable escaping behavior in repr23
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorUtilsTests::test_repr23_ascii_and_binary | 1 failed, 40 passed in 0.40s
+M04 KILLED   Replace md5 helper with sha1
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorUtilsTests::test_hash_helpers - Assertio... | 1 failed, 40 passed in 0.41s
+M05 KILLED   Replace sha1 helper with md5
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorUtilsTests::test_hash_helpers - Assertio... | 1 failed, 40 passed in 0.39s
+M06 KILLED   Break time formatting divisor constants
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorUtilsTests::test_padhex_and_pprint_seconds | 1 failed, 40 passed in 0.42s
+M07 KILLED   Disable random mode branch in RangeIter
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorIterationTests::test_rangeiter_random_mode_len_is_maxint | 1 failed, 40 passed in 0.40s
+M08 KILLED   Return maxint instead of computed RangeIter length
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters | 3 failed, 38 passed in 0.44s
+M09 KILLED   Stop stripping CRLF in ppstr
+  return code: 1
+  summary: FAILED tests/test_patator.py::PatatorUtilsTests::test_ppstr_and_flatten - Ass... | 1 failed, 40 passed in 0.40s
+M10 SURVIVED Break query splitting behavior
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.32s
+M11 SURVIVED Relax FILE key matcher
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.32s
+M12 SURVIVED Relax NET key matcher
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.31s
+M13 SURVIVED Break COMBO key second capture matcher
+  return code: 0
+  summary: .........................................                                [100%] | 41 passed in 0.31s
+
+Totals
+  total mutants: 13
+  killed: 7
+  survived: 6
+  errors: 0
+  mutation score: 53.8%
