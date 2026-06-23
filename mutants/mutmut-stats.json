@@ -1,0 +1,271 @@
+{
+    "tests_by_mangled_function_name": {
+        "patator.patator.x_B": [
+            "tests/test_patator.py::PatatorUtilsTests::test_ppstr_and_flatten",
+            "tests/test_patator.py::PatatorUtilsTests::test_b_and_B_roundtrip",
+            "tests/test_patator.py::PatatorFeatureTests::test_umbraco_crack_success_and_failure"
+        ],
+        "patator.patator.x_which": [
+            "tests/test_patator.py::PatatorUtilsTests::test_b_and_B_roundtrip"
+        ],
+        "patator.patator.x_b": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump",
+            "tests/test_patator.py::PatatorUtilsTests::test_b_and_B_roundtrip"
+        ],
+        "patator.patator.x_on_windows": [
+            "tests/test_patator.py::PatatorUtilsTests::test_b_and_B_roundtrip"
+        ],
+        "patator.patator.x_count_lines": [
+            "tests/test_patator.py::PatatorUtilsTests::test_count_lines"
+        ],
+        "patator.patator.x_md5hex": [
+            "tests/test_patator.py::PatatorUtilsTests::test_hash_helpers"
+        ],
+        "patator.patator.x_sha1hex": [
+            "tests/test_patator.py::PatatorUtilsTests::test_hash_helpers"
+        ],
+        "patator.patator.x_pprint_seconds": [
+            "tests/test_patator.py::PatatorUtilsTests::test_padhex_and_pprint_seconds"
+        ],
+        "patator.patator.x_padhex": [
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_hex_and_float",
+            "tests/test_patator.py::PatatorUtilsTests::test_padhex_and_pprint_seconds"
+        ],
+        "patator.patator.x_parse_query": [
+            "tests/test_patator.py::PatatorUtilsTests::test_parse_query_keeps_plus_sign",
+            "tests/test_patator.py::PatatorUtilsTests::test_parse_query_keep_blank_values"
+        ],
+        "patator.patator.x_flatten": [
+            "tests/test_patator.py::PatatorUtilsTests::test_ppstr_and_flatten"
+        ],
+        "patator.patator.x_ppstr": [
+            "tests/test_patator.py::PatatorUtilsTests::test_ppstr_and_flatten"
+        ],
+        "patator.patator.x_repr23": [
+            "tests/test_patator.py::PatatorUtilsTests::test_repr23_ascii_and_binary"
+        ],
+        "patator.patator.x_create_dir": [
+            "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_wipes_existing_files",
+            "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_aborts_when_subdirectories_exist",
+            "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_makes_directory"
+        ],
+        "patator.patator.x_create_time_dir": [
+            "tests/test_patator.py::PatatorFilesystemTests::test_create_time_dir_structure"
+        ],
+        "patator.patator.x\u01c1chain\u01c1__init__": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_transforms",
+            "tests/test_patator.py::PatatorIterationTests::test_product_and_chain",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters"
+        ],
+        "patator.patator.x_product": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_transforms",
+            "tests/test_patator.py::PatatorIterationTests::test_product_and_chain",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters"
+        ],
+        "patator.patator.x\u01c1RangeIter\u01c1__iter__": [
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_hex_and_float",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_int_forward_and_backward",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters"
+        ],
+        "patator.patator.x\u01c1RangeIter\u01c1__init__": [
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_hex_and_float",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_random_mode_len_is_maxint",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_int_forward_and_backward",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_invalid_inputs_raise",
+            "tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters"
+        ],
+        "patator.patator.x_match_range": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump",
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors",
+            "tests/test_patator.py::PatatorResponseTests::test_match_range"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1__init__": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump",
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors",
+            "tests/test_patator.py::PatatorFeatureTests::test_umbraco_crack_success_and_failure",
+            "tests/test_patator.py::PatatorResponseTests::test_response_ajp_string_is_first_line"
+        ],
+        "patator.patator.x\u01c1Response_AJP\u01c1__init__": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_ajp_string_is_first_line"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1__init__": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors",
+            "tests/test_patator.py::PatatorResponseTests::test_response_ajp_string_is_first_line"
+        ],
+        "patator.patator.x\u01c1Response_AJP\u01c1__str__": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_ajp_string_is_first_line"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1dump": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_size": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1indicators": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_egrep": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_fgrep": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_code": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_time": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1match_mesg": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_Base\u01c1str_target": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1__str__": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1str_target": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1match_egrep": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1match_clen": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors"
+        ],
+        "patator.patator.x\u01c1Response_HTTP\u01c1indicators": [
+            "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors"
+        ],
+        "patator.patator.x_split_ntlm": [
+            "tests/test_patator.py::PatatorResponseTests::test_split_ntlm"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1lookup_actions": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_lookup_with_negation",
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_registration_and_lookup"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1update_actions": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_update_actions_rejects_unknown_action",
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_lookup_with_negation",
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_registration_and_lookup"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_prog_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_module_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_range_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_combo_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1expand_key": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_net_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1find_file_keys": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1register_free": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_register_and_should_free_skip"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1register_skip": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_register_and_should_free_skip"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1should_skip": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_register_and_should_free_skip"
+        ],
+        "patator.patator.x\u01c1Controller\u01c1should_free": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_register_and_should_free_skip"
+        ],
+        "patator.patator.x\u01c1TCP_Cache\u01c1bind": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_tcp_cache_bind_reuses_connection_and_reset_closes"
+        ],
+        "patator.patator.x\u01c1TCP_Cache\u01c1__init__": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_tcp_cache_bind_reuses_connection_and_reset_closes"
+        ],
+        "patator.patator.x\u01c1TCP_Cache\u01c1reset": [
+            "tests/test_patator.py::PatatorControllerAndCacheTests::test_tcp_cache_bind_reuses_connection_and_reset_closes"
+        ],
+        "patator.patator.x_dns_query": [
+            "tests/test_patator.py::PatatorFeatureTests::test_dns_query_uses_udp_and_tcp_fallback_when_truncated",
+            "tests/test_patator.py::PatatorFeatureTests::test_dns_query_tcp_only"
+        ],
+        "patator.patator.x_generate_srv": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_srv_handles_missing_system_files"
+        ],
+        "patator.patator.x_generate_tld": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_tld"
+        ],
+        "patator.patator.x_generate_transforms": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_transforms"
+        ],
+        "patator.patator.x_generate_tst": [
+            "tests/test_patator.py::PatatorFeatureTests::test_generate_tst"
+        ],
+        "patator.patator.x\u01c1Umbraco_crack\u01c1execute": [
+            "tests/test_patator.py::PatatorFeatureTests::test_umbraco_crack_success_and_failure"
+        ],
+        "patator.patator.x\u01c1VNC\u01c1gen_key": [
+            "tests/test_patator.py::PatatorFeatureTests::test_vnc_gen_key"
+        ],
+        "patator.patator.x_cli": [
+            "tests/test_patator.py::PatatorCliTests::test_cli_aborts_when_dependency_missing_for_target_module",
+            "tests/test_patator.py::PatatorCliTests::test_cli_starts_selected_module"
+        ],
+        "patator.patator.x_show_usage": [
+            "tests/test_patator.py::PatatorCliTests::test_show_usage_exits_with_code_2"
+        ]
+    },
+    "duration_by_test": {
+        "tests/test_patator.py::PatatorUtilsTests::test_b_and_B_roundtrip": 0.008487523999974655,
+        "tests/test_patator.py::PatatorUtilsTests::test_count_lines": 0.0015841970007386408,
+        "tests/test_patator.py::PatatorUtilsTests::test_hash_helpers": 0.00144492500112392,
+        "tests/test_patator.py::PatatorUtilsTests::test_padhex_and_pprint_seconds": 0.002637419000166119,
+        "tests/test_patator.py::PatatorUtilsTests::test_parse_query_keep_blank_values": 0.0013061170002401923,
+        "tests/test_patator.py::PatatorUtilsTests::test_parse_query_keeps_plus_sign": 0.0010865209987969138,
+        "tests/test_patator.py::PatatorUtilsTests::test_ppstr_and_flatten": 0.006219228000190924,
+        "tests/test_patator.py::PatatorUtilsTests::test_repr23_ascii_and_binary": 0.002387713999269181,
+        "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_aborts_when_subdirectories_exist": 0.001882299000499188,
+        "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_makes_directory": 0.0017783230014174478,
+        "tests/test_patator.py::PatatorFilesystemTests::test_create_dir_wipes_existing_files": 0.0027591470006882446,
+        "tests/test_patator.py::PatatorFilesystemTests::test_create_time_dir_structure": 0.002822494999236369,
+        "tests/test_patator.py::PatatorIterationTests::test_product_and_chain": 0.004038170998683199,
+        "tests/test_patator.py::PatatorIterationTests::test_rangeiter_hex_and_float": 0.008088203000625072,
+        "tests/test_patator.py::PatatorIterationTests::test_rangeiter_int_forward_and_backward": 0.004843085999709729,
+        "tests/test_patator.py::PatatorIterationTests::test_rangeiter_invalid_inputs_raise": 0.002873651999834692,
+        "tests/test_patator.py::PatatorIterationTests::test_rangeiter_letters": 0.006058674999621871,
+        "tests/test_patator.py::PatatorIterationTests::test_rangeiter_random_mode_len_is_maxint": 0.0019669299999804934,
+        "tests/test_patator.py::PatatorResponseTests::test_match_range": 0.0070580929996140185,
+        "tests/test_patator.py::PatatorResponseTests::test_response_ajp_string_is_first_line": 0.004259323000042059,
+        "tests/test_patator.py::PatatorResponseTests::test_response_base_matching_and_dump": 0.016093201999865414,
+        "tests/test_patator.py::PatatorResponseTests::test_response_http_behaviors": 0.007049361001008947,
+        "tests/test_patator.py::PatatorResponseTests::test_split_ntlm": 0.00280992100124422,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_lookup_with_negation": 0.0025145640001937863,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_action_registration_and_lookup": 0.0019868099989253096,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_key_finders": 0.006638386000304308,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_register_and_should_free_skip": 0.0032882880013858085,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_controller_update_actions_rejects_unknown_action": 0.0014900500000294414,
+        "tests/test_patator.py::PatatorControllerAndCacheTests::test_tcp_cache_bind_reuses_connection_and_reset_closes": 0.0034026599996650475,
+        "tests/test_patator.py::PatatorFeatureTests::test_dns_query_tcp_only": 0.0018604360002427711,
+        "tests/test_patator.py::PatatorFeatureTests::test_dns_query_uses_udp_and_tcp_fallback_when_truncated": 0.0013951269993413007,
+        "tests/test_patator.py::PatatorFeatureTests::test_generate_srv_handles_missing_system_files": 0.001996954999412992,
+        "tests/test_patator.py::PatatorFeatureTests::test_generate_tld": 0.0015796429997863015,
+        "tests/test_patator.py::PatatorFeatureTests::test_generate_transforms": 0.7719066489999022,
+        "tests/test_patator.py::PatatorFeatureTests::test_generate_tst": 0.0010218779998467653,
+        "tests/test_patator.py::PatatorFeatureTests::test_prepare_ajp_forward_request": 0.00919752600020729,
+        "tests/test_patator.py::PatatorFeatureTests::test_umbraco_crack_success_and_failure": 0.006325116998596059,
+        "tests/test_patator.py::PatatorFeatureTests::test_vnc_gen_key": 0.0018781259996103472,
+        "tests/test_patator.py::PatatorCliTests::test_cli_aborts_when_dependency_missing_for_target_module": 0.0011512129995026044,
+        "tests/test_patator.py::PatatorCliTests::test_cli_starts_selected_module": 0.001804437999453512,
+        "tests/test_patator.py::PatatorCliTests::test_show_usage_exits_with_code_2": 0.00126019700019242
+    },
+    "stats_time": 5.8707834000000005
+}
